@@ -17,7 +17,7 @@
 body{
     font-family:'Hanken Grotesk', sans-serif;
     font-size: var(--font-size);
-    background: linear-gradient(hsla(221, 100%, 96%,0.4),white,white); 
+    background: linear-gradient(hsla(221, 100%, 96%,0.4),white,rgba(255, 255, 255, 0)); 
 }
 
 .result{
@@ -79,6 +79,7 @@ body{
 
 .summary{
     padding: 20px;
+    
    
     
 }
@@ -152,6 +153,24 @@ body{
 
 .list-score strong{
     color: rgba(59, 58, 58, 0.8);  
+}
+
+.continue button{
+    background-color: rgb(49, 54, 87);
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgba(247, 247, 247,0.9);
+}
+
+.attribution{
+    margin-bottom: 0;
+    border-top: 1px solid balck;
 }
 
 
