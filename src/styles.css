@@ -78,14 +78,16 @@ body{
 }
 
 .summary{
-    padding: 20px;
+    padding: 30px;
     
    
     
 }
 .summary h2{
    padding-bottom: 20px;
-   font-size: 18px;
+   font-size: 15px;
+   font-weight: 800;
+   color: rgb(60, 56, 56);
 }
 
 .list{
@@ -95,7 +97,9 @@ body{
     align-items: center;
     margin-bottom: 12px;
     padding-right: 10px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.01);
 }
 
 
@@ -110,8 +114,8 @@ body{
     display: flex;
     flex-direction: row;
     margin-right: auto;
-    font-weight: 800;
-    opacity: 0.8;
+    font-weight: 500;
+
   
 }
 #reaction-h{
@@ -129,20 +133,20 @@ body{
 }
 
 .reaction{
-  background-color: hsla(0, 100%, 67%,0.1);
+  background-color: hsla(0, 100%, 67%,0.05);
 }
 
 .Memory{
-    background-color: hsla(39, 100%, 56%,0.1);
+    background-color: hsla(39, 100%, 56%,0.05);
 
 }
 
 .verbal{
-    background-color: hsla(166, 100%, 37%,0.1);
+    background-color: hsla(166, 100%, 37%,0.05);
 }
 
 .visual{
-    background-color: hsla(234, 85%, 45%,0.1);
+    background-color: hsla(234, 85%, 45%,0.05);
 }
 
 .list-score {
@@ -162,7 +166,7 @@ body{
     border: 0;
     border-radius: 30px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
     font-size: 15px;
     font-weight: 800;
     color: rgba(247, 247, 247,0.9);
